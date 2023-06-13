@@ -40,7 +40,7 @@
               colnames(ew_h) <- c("c1", "event")
               ne_h <- setdiff(ew_h[, 2], ew[, 1])
               ew_h0<- droplevels(ew_h[-which(ew_h$event==ne_h),],exclude=ne_h)
-              ew_h1 <- left_join(ew_h0, ew1, by="event", stringsAsFactors=FALSE)[, c(1, 3)]
+              ew_h1 <- left_join(ew_h0, ew1, by="event")[, c(1, 3)]
               xx <- xx[,-which(colnames(xx) %in% setdiff(colnames(xx), ew_h1[,1]))]
               n <- length(ptid_h)
               lifemat <- matrix(1, nrow = n, ncol = maxtime+1)
