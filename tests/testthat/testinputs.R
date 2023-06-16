@@ -4,7 +4,7 @@ test_that("testinputs",{
 
   expect_equal(wcep(data.frame(toyexample,1),data.frame(event=c('CHF','DTH','SHK','REMI'), weight = c(0.3,1,0.5,0.2)),
                     alpha = 0.05 , split = FALSE),
-              noquote("Error: Data frame x should have 3 columns for one group or 4 columns for two groups comparison"))
+               noquote("Error: Data frame x should have 3 columns for one group or 4 columns for two groups comparison"))
 
   expect_equal(wcep(toyexample[,1:2],data.frame(event=c('CHF','DTH','SHK','REMI'), weight = c(0.3,1,0.5,0.2)),
                     alpha = 0.05 , split = FALSE),

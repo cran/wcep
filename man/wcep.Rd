@@ -30,7 +30,11 @@ Analyze given data frame and return Kaplan-Meier survival probabilities together
 
 Bakal J., Westerhout C. M., Armstrong P. W. (2015) Impact of weighted composite
 compared to traditional composite endpoints for the design of randomized
-controlled trails, Statistical Methods in Medicine Research Vol. 24(6) 980-988
+controlled trails. \var{Statistical Methods in Medicine Research}. \bold{24}(6) 980-988.
+
+Nabipoor M., Westerhout C. M., Rathwell S., Bakal J. (2023) The empirical
+estimate of the survival and variance using a weighted composite endpoint,
+\var{BMC Medical Research Methodology}. \bold{23}(35).
 }
 
 \examples{

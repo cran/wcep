@@ -5,7 +5,7 @@
 \alias{toyexample}
 \title{Toy example}
 \format{
-A data frame with 104 rows and 4 columns
+{A data frame with 104 rows and 4 columns
 \describe{
    \item{PTID}{ID number of patients}
    \item{EvTp}{Event Types: SHK as Shock, CHF as Congestive Heart
@@ -14,19 +14,26 @@ A data frame with 104 rows and 4 columns
    \item{EvTm}{Event Time (day)}
    \item{sex}{Gender of patients, M as Male, F as Female}
    }
- @source It is a generated example based on ASSENT-3.
- Armstrong PW, Westerhout CM, Van de Werf F, Califf RM, Welsh RC,
- Wilcox RG, Bakal JA
- Refining clinical trial composite outcomes: an application to the
- Assessment of the Safety and Efficacy of a New Thrombolytic-3
- (ASSENT-3) trial
- \url{https://pubmed.ncbi.nlm.nih.gov/21570513}
+}
+}
+\source{
+{It is a generated example based on ASSENT-3:
+\url{https://pubmed.ncbi.nlm.nih.gov/21570513}}
 }
 \usage{
 toyexample
 }
 \description{
 A data set containing patient IDs, event types, event times, and
-gender of 100 patients
+gender of 100 patients.
 }
+\section{References}{
+
+ Armstrong P. W., Westerhout C. M., Van de Werf F., Califf R. M., Welsh R. C.,
+ Wilcox R. G., Bakal J. A. (2011) Refining clinical trial composite outcomes:
+ an application to the Assessment of the Safety and Efficacy of a New
+ Thrombolytic-3 (ASSENT-3) trial. \var{American Heart Journal}. \bold{161}(5)
+ 848-854.
+}
+
 \keyword{datasets}
